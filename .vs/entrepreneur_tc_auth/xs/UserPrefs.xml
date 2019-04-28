@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{859E218F-EC3D-43E5-957B-EE04BD5E2772}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Pages/Posts/Index.cshtml">
     <Files>
       <File FileName="Pages/Shared/_Layout.cshtml" Line="73" Column="19" />
       <File FileName="Areas/Identity/Pages/_ViewStart.cshtml" Line="4" Column="1" />
@@ -9,17 +9,24 @@
       <File FileName="Pages/Error.cshtml" Line="1" Column="1" />
       <File FileName="Pages/Error.cshtml.cs" Line="1" Column="1" />
       <File FileName="Pages/Index.cshtml" Line="1" Column="1" />
-      <File FileName="Pages/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="Pages/Privacy.cshtml" Line="2" Column="20" />
-      <File FileName="Startup.cs" Line="46" Column="1" />
+      <File FileName="Models/Post.cs" Line="17" Column="10" />
+      <File FileName="Controllers/PostsController.cs" Line="20" Column="10" />
+      <File FileName="Pages/Posts/Index.cshtml" Line="15" Column="13" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="entrepreneur_tc_auth" expanded="True">
             <Node name="entrepreneur_tc_auth" expanded="True">
-              <Node name="Pages" expanded="True" />
-              <Node name="Startup.cs" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Posts" expanded="True">
+                  <Node name="Index.cshtml" selected="True" />
+                </Node>
+              </Node>
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>

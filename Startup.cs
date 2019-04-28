@@ -36,6 +36,9 @@ namespace entrepreneur_tc_auth
             });
 
 
+            //
+            // DB CONTEXTS
+            //
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
@@ -43,11 +46,18 @@ namespace entrepreneur_tc_auth
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            services.AddAuthentication().AddGoogle(googleOptions =>
-            {
-                googleOptions.ClientId = Configuration["Authentication:Google:ClientId"];
-                googleOptions.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
-            });
+
+            //
+            // AUTHENTICATION SERVICES
+            //
+            services.AddAuthentication()
+                // Google
+                .AddGoogle(googleOptions =>
+                {
+                    googleOptions.ClientId = Configuration["Authentication:Google:ClientId"];
+                    googleOptions.ClientSecret = Configuration["Authentication:Google:ClientSecret"];
+                });
+
 
             //
             // IDENTITY OPTIONS
@@ -80,6 +90,9 @@ namespace entrepreneur_tc_auth
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
+            //
+            // CHECK ENVIRONMENT MODE
+            //
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

@@ -31,3 +31,9 @@
 /Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/entrepreneur_tc_auth.dll
 /Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/entrepreneur_tc_auth.pdb
 /Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/entrepreneur_tc_auth.csproj.CopyComplete
+/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs
+/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/Razor/Pages/Posts/Create.g.cshtml.cs
+/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/Razor/Pages/Posts/Delete.g.cshtml.cs
+/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/Razor/Pages/Posts/Details.g.cshtml.cs
+/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/Razor/Pages/Posts/Edit.g.cshtml.cs
+/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/Debug/netcoreapp2.2/Razor/Pages/Posts/Index.g.cshtml.cs
