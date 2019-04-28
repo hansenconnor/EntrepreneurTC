@@ -10,9 +10,8 @@
       <File FileName="Pages/Error.cshtml.cs" Line="1" Column="1" />
       <File FileName="Pages/Index.cshtml" Line="1" Column="1" />
       <File FileName="Pages/Index.cshtml.cs" Line="1" Column="1" />
-      <File FileName="Pages/Privacy.cshtml" Line="1" Column="1" />
-      <File FileName="Pages/Privacy.cshtml.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="40" Column="73" />
+      <File FileName="Pages/Privacy.cshtml" Line="2" Column="20" />
+      <File FileName="Startup.cs" Line="46" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
