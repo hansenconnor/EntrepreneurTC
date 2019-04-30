@@ -42,10 +42,10 @@ namespace entrepreneur_tc_auth
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
-            services.AddDefaultIdentity<IdentityUser>()
-                .AddDefaultUI(UIFramework.Bootstrap4)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
 
+            //services.AddIdentity<IdentityUser, IdentityRole>()
+            //     .AddEntityFrameworkStores<ApplicationDbContext>()
+            //.AddDefaultTokenProviders();
 
             //
             // AUTHENTICATION SERVICES
