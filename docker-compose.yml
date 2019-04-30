@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  entrepreneur_tc_auth:
+    image: ${DOCKER_REGISTRY-}entrepreneurtcauth
+    build:
+      context: .
+      dockerfile: ./Dockerfile

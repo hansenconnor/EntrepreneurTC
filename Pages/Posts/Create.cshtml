@@ -4,44 +4,47 @@
 @{
     ViewData["Title"] = "Create";
 }
+<div class="container">
 
-<h1>Create</h1>
+    <h1>Create</h1>
 
-<h4>Post</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Post.Title" class="control-label"></label>
-                <input asp-for="Post.Title" class="form-control" />
-                <span asp-validation-for="Post.Title" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Post.PublicationDate" class="control-label"></label>
-                <input asp-for="Post.PublicationDate" class="form-control" />
-                <span asp-validation-for="Post.PublicationDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Post.Category" class="control-label"></label>
-                <input asp-for="Post.Category" class="form-control" />
-                <span asp-validation-for="Post.Category" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Post.AuthorName" class="control-label"></label>
-                <input asp-for="Post.AuthorName" class="form-control" />
-                <span asp-validation-for="Post.AuthorName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
-            </div>
-        </form>
+    <h4>Post</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="Post.Title" class="control-label"></label>
+                    <input asp-for="Post.Title" class="form-control" />
+                    <span asp-validation-for="Post.Title" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Post.PublicationDate" class="control-label"></label>
+                    <input asp-for="Post.PublicationDate" class="form-control" />
+                    <span asp-validation-for="Post.PublicationDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Post.Category" class="control-label"></label>
+                    <input asp-for="Post.Category" class="form-control" />
+                    <span asp-validation-for="Post.Category" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Post.AuthorName" class="control-label"></label>
+                    <input asp-for="Post.AuthorName" class="form-control" />
+                    <span asp-validation-for="Post.AuthorName" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
     </div>
-</div>
 
-<div>
-    <a asp-page="Index">Back to List</a>
+    <div>
+        <a asp-page="Index">Back to List</a>
+    </div>
+
 </div>
 
 @section Scripts {

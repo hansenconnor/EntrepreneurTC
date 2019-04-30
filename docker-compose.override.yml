@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  entrepreneur_tc_auth:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"
