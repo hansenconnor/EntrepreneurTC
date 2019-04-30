@@ -157,7 +157,7 @@ header.masthead {
 .call-to-action {
     position: relative;
     background-color: #343a40;
-    background: url("../img/bg-masthead.jpg") no-repeat center center;
+    background: url("https://images.unsplash.com/photo-1540630271798-71a62dfed2a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1582&q=80") no-repeat center center;
     background-size: cover;
     padding-top: 7rem;
     padding-bottom: 7rem;
@@ -170,7 +170,7 @@ header.masthead {
         width: 100%;
         top: 0;
         left: 0;
-        opacity: 0.3;
+        opacity: 0.3333;
     }
 
 footer.footer {
