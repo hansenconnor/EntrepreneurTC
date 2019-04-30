@@ -84,7 +84,15 @@ namespace entrepreneur_tc_auth
             });
 
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc()
+                .AddRazorPagesOptions(options =>
+                {
+                    options.Conventions.AuthorizePage("/Posts");
+                    options.Conventions.AuthorizeFolder("/Private");
+                    options.Conventions.AllowAnonymousToPage("/Private/PublicPage");
+                    options.Conventions.AllowAnonymousToFolder("/Private/PublicPages");
+                })
+                .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

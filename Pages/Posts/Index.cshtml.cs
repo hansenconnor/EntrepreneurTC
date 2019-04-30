@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using entrepreneur_tc_auth.Data;
 using entrepreneur_tc_auth.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace entrepreneur_tc_auth.Pages.Posts
 {
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly entrepreneur_tc_auth.Data.ApplicationDbContext _context;
