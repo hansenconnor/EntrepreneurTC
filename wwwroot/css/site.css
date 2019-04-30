@@ -7,6 +7,16 @@ a.navbar-brand {
   word-break: break-all;
 }
 
+
+/* Full width row */
+.row-full {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+}
+
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {

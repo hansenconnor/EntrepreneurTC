@@ -13,13 +13,13 @@ namespace entrepreneur_tc_auth.Areas.Identity.Pages.Account.Manage
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 2 "/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/Areas/Identity/Pages/_ViewImports.cshtml"
-using entrepreneur_tc_auth.Areas.Identity;
+#line 1 "/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/Areas/Identity/Pages/_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
-#line 3 "/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/Areas/Identity/Pages/_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+#line 2 "/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/Areas/Identity/Pages/_ViewImports.cshtml"
+using entrepreneur_tc_auth.Areas.Identity;
 
 #line default
 #line hidden
@@ -34,7 +34,7 @@ using entrepreneur_tc_auth.Areas.Identity.Pages.Account.Manage;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3260509d871ae2e79e466596a6ae8daee5db8378", @"/Areas/Identity/Pages/Account/Manage/DeletePersonalData.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"98e4586b6bb930382fe63ab0118331e7250011c7", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"3112258a3e652005618b532e3cd7920919d29864", @"/Areas/Identity/Pages/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"9ea2b1dd967412c56992ca602ef2c453bbb3b2f8", @"/Areas/Identity/Pages/Account/_ViewImports.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b469ee8d27d49604b1579142b6003fc1585c1aa0", @"/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml")]
     public class Areas_Identity_Pages_Account_Manage_DeletePersonalData : global::Microsoft.AspNetCore.Mvc.RazorPages.Page

@@ -37,7 +37,7 @@ namespace entrepreneur_tc_auth.Pages.Posts
             _context.Post.Add(Post);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("/Index");
         }
     }
 }
