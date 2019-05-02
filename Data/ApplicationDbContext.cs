@@ -13,6 +13,6 @@ namespace entrepreneur_tc_auth.Data
             : base(options)
         {
         }
-        public DbSet<entrepreneur_tc_auth.Models.Post> Post { get; set; }
+        public DbSet<Post> Post { get; set; }
     }
 }

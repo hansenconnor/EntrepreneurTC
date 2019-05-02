@@ -12,8 +12,8 @@ namespace entrepreneur_tc_auth.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly entrepreneur_tc_auth.Data.ApplicationDbContext _context;
-        public IndexModel(entrepreneur_tc_auth.Data.ApplicationDbContext context)
+        private readonly ApplicationDbContext _context;
+        public IndexModel(ApplicationDbContext context)
         {
             _context = context;
         }

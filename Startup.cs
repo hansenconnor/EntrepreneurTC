@@ -39,9 +39,19 @@ namespace entrepreneur_tc_auth
             //
             // DB CONTEXTS
             //
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
+            //services.AddDbContext<ApplicationDbContext>(options =>
+            //options.UseSqlServer(
+            //Configuration.GetConnectionString("DefaultConnection")));
+            // Use SQL Database if in Azure, otherwise, use SQLite
+            if (Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") == "Production")
+                services.AddDbContext<ApplicationDbContext>(options =>
+                        options.UseSqlServer(Configuration.GetConnectionString("LiveDB")));
+            else
+                services.AddDbContext<ApplicationDbContext>(options =>
+                        options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+
+            // Automatically perform database migration
+            services.BuildServiceProvider().GetService<ApplicationDbContext>().Database.Migrate();
 
             //services.AddIdentity<IdentityUser, IdentityRole>()
             //     .AddEntityFrameworkStores<ApplicationDbContext>()

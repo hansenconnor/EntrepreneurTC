@@ -12,6 +12,10 @@
     <None Remove="docker-compose.override.yml" />
     <None Remove="docker-compose.yml" />
     <None Remove=".dockerignore" />
+    <None Remove="Dockerfile" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\google35fa226cc647379a.html" />
   </ItemGroup>
   <ItemGroup>
     <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
@@ -31,5 +35,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\uploads\entrepreneur-tc-logotype-black.png" />
+    <Content Remove="wwwroot\google35fa226cc647379a.html" />
   </ItemGroup>
 </Project>
