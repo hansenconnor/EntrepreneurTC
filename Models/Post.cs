@@ -6,10 +6,11 @@ namespace entrepreneur_tc_auth.Models
 {
     public class Post
     {
-        [DatabaseGenerated(DatabaseGeneratedOption.None)]
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
-        public string Title { get; set; }
 
+        public string Title { get; set; }
         [DataType(DataType.Date)]
         public DateTime PublicationDate { get; set; }
         public string Category { get; set; }
