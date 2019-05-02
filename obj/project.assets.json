@@ -13304,11 +13304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/entrepreneur_tc_auth.csproj",
+      "projectUniqueName": "/Users/Connor/Documents/GitHub/EntrepreneurTC/entrepreneur_tc_auth.csproj",
       "projectName": "entrepreneur_tc_auth",
-      "projectPath": "/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/entrepreneur_tc_auth.csproj",
+      "projectPath": "/Users/Connor/Documents/GitHub/EntrepreneurTC/entrepreneur_tc_auth.csproj",
       "packagesPath": "/Users/Connor/.nuget/packages/",
-      "outputPath": "/Users/Connor/projects/entrepreneur_tc_auth/entrepreneur_tc_auth/obj/",
+      "outputPath": "/Users/Connor/Documents/GitHub/EntrepreneurTC/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

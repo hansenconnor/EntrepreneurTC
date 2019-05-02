@@ -1,9 +1,5 @@
 ﻿@page
-@model IndexModel
-@{
-    ViewData["Title"] = "Home page";
-}
-
+@model Pages.IndexModel
 
 @*<div class="d-flex" style="min-height:100vh; background:url('https://images.unsplash.com/photo-1482440308425-276ad0f28b19?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80'); background-size:cover; background-repeat:no-repeat;">
 
@@ -15,7 +11,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-9 mx-auto">
-                <h1 class="mb-5">EntrepreneurTC <small class="text-white-50 d-block">Local source for Tech News.</small></h1>
+                <h1 class="mb-5">SocialFuse <small class="text-white-50 d-block">Local source for Tech News.</small></h1>
                </div>
             <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                 <a href="/Register" class="btn btn-block btn-lg btn-primary">Become a Member!</a>
@@ -23,6 +19,27 @@
         </div>
     </div>
 </header>
+
+<!-- Posts Grid -->
+<section class="row-full py-5">
+    <div class="container">
+        <div class="row">
+            @foreach (var post in Model.Posts) {
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card mb-3">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@post.Title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">@post.AuthorName</h6>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="/Posts/Details?id=@post.Id" class="btn btn-primary">Read</a>
+                </div>
+                </div>
+            </div>
+            }
+        </div>
+    </div>
+</section>
 
 <!-- Icons Grid -->
 <section class="features-icons bg-light text-center row-full">
@@ -123,11 +140,11 @@
     <div class="container">
         <div class="row row-full">
             <div class="col-xl-9 mx-auto">
-                <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+                <h2 class="mb-4">Not a member? Sign up now!</h2>
             </div>
             <div class="col-12 text-center">
             
-                <a href="/Register" class="btn btn-lg btn-primary">Sign up!</a>
+                <a href="/Register" class="btn btn-lg btn-primary">Join SocialFuse</a>
 
             </div>
         </div>
