@@ -10,7 +10,7 @@ using entrepreneur_tc_auth.Data;
 namespace entrepreneur_tc_auth.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20190502224526_configuringForAzure")]
+    [Migration("20190428033955_creatingPostsContext")]
     partial class configuringForAzure
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
