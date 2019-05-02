@@ -1,13 +1,13 @@
 ﻿<Properties StartupConfiguration="{859E218F-EC3D-43E5-957B-EE04BD5E2772}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Areas/Identity/Data/entrepreneur_tc_authIdentityDbContext.cs">
     <Files>
-      <File FileName="appsettings.json" Line="7" Column="18" />
-      <File FileName="Startup.cs" Line="51" Column="95" />
+      <File FileName="appsettings.json" Line="4" Column="12" />
+      <File FileName="Startup.cs" Line="79" Column="43" />
       <File FileName="Properties/launchSettings.json" Line="12" Column="35" />
       <File FileName="Program.cs" Line="17" Column="1" />
-      <File FileName="Areas/Identity/IdentityHostingStartup.cs" Line="21" Column="1" />
-      <File FileName="Areas/Identity/Pages/Account/Login.cshtml" Line="1" Column="1" />
-      <File FileName="Areas/Identity/Pages/Account/Login.cshtml.cs" Line="1" Column="1" />
+      <File FileName="Areas/Identity/IdentityHostingStartup.cs" Line="25" Column="10" />
+      <File FileName="Areas/Identity/Data/entrepreneur_tc_authIdentityDbContext.cs" Line="1" Column="1" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="19" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,14 +16,16 @@
             <Node name="entrepreneur_tc_auth" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Identity" expanded="True">
-                  <Node name="Data" expanded="True" />
-                  <Node name="Pages" expanded="True">
-                    <Node name="Account" expanded="True" />
+                  <Node name="Data" expanded="True">
+                    <Node name="entrepreneur_tc_authIdentityDbContext.cs" selected="True" />
                   </Node>
                 </Node>
               </Node>
-              <Node name="Data" expanded="True" />
-              <Node name="localdatabase.db" selected="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Posts" expanded="True" />
+              </Node>
+              <Node name="Properties" expanded="True" />
             </Node>
           </Node>
         </State>

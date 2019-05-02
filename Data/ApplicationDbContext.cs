@@ -7,7 +7,7 @@ using entrepreneur_tc_auth.Models;
 
 namespace entrepreneur_tc_auth.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
