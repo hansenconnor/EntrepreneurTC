@@ -16,8 +16,8 @@ namespace entrepreneur_tc_auth.Areas.Identity
         {
             builder.ConfigureServices((context, services) => {
                 services.AddDbContext<entrepreneur_tc_authIdentityDbContext>(options =>
-                    options.UseSqlite(
-                        context.Configuration.GetConnectionString("DefaultConnection")));
+                    options.UseSqlServer(
+                        context.Configuration.GetConnectionString("LiveDB")));
 
                 services.AddDefaultIdentity<IdentityUser>()
                     .AddEntityFrameworkStores<entrepreneur_tc_authIdentityDbContext>();
