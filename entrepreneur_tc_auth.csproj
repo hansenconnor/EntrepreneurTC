@@ -37,4 +37,7 @@
     <Content Remove="wwwroot\uploads\entrepreneur-tc-logotype-black.png" />
     <Content Remove="wwwroot\google35fa226cc647379a.html" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20190502224526_configuringForAzure.cs" />
+  </ItemGroup>
 </Project>

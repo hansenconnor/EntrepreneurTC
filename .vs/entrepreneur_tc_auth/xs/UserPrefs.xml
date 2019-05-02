@@ -1,18 +1,19 @@
 ﻿<Properties StartupConfiguration="{859E218F-EC3D-43E5-957B-EE04BD5E2772}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Migrations/ApplicationDbContextModelSnapshot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Migrations/20190428033955_creatingPostsContext.Designer.cs">
     <Files>
       <File FileName="appsettings.json" Line="2" Column="25" />
-      <File FileName="Startup.cs" Line="39" Column="15" />
+      <File FileName="Startup.cs" Line="46" Column="95" />
       <File FileName="Properties/launchSettings.json" Line="12" Column="35" />
       <File FileName="Program.cs" Line="18" Column="10" />
-      <File FileName="Areas/Identity/IdentityHostingStartup.cs" Line="25" Column="10" />
-      <File FileName="Data/ApplicationDbContext.cs" Line="15" Column="10" />
+      <File FileName="Areas/Identity/IdentityHostingStartup.cs" Line="19" Column="42" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="19" Column="1" />
       <File FileName="Pages/Posts/Create.cshtml" Line="1" Column="1" />
       <File FileName="Pages/Posts/Create.cshtml.cs" Line="33" Column="14" />
       <File FileName="Models/Post.cs" Line="21" Column="1" />
       <File FileName="Data/Migrations/20190502224526_configuringForAzure.Designer.cs" Line="26" Column="42" />
-      <File FileName="Data/Migrations/20190502224526_configuringForAzure.cs" Line="21" Column="37" />
-      <File FileName="Data/Migrations/ApplicationDbContextModelSnapshot.cs" Line="1" Column="1" />
+      <File FileName="Data/Migrations/20190502224526_configuringForAzure.cs" Line="32" Column="47" />
+      <File FileName="Data/Migrations/ApplicationDbContextModelSnapshot.cs" Line="29" Column="1" />
+      <File FileName="Data/Migrations/20190428033955_creatingPostsContext.Designer.cs" Line="20" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -26,7 +27,7 @@
               </Node>
               <Node name="Data" expanded="True">
                 <Node name="Migrations" expanded="True">
-                  <Node name="ApplicationDbContextModelSnapshot.cs" selected="True" />
+                  <Node name="20190428033955_creatingPostsContext.Designer.cs" selected="True" />
                 </Node>
               </Node>
               <Node name="Models" expanded="True" />
