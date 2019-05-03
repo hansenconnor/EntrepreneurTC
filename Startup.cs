@@ -53,7 +53,6 @@ namespace entrepreneur_tc_auth
                 services.AddDbContext<ApplicationDbContext>(options =>
                         options.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
             }
-
             // Automatically perform database migration
             services.BuildServiceProvider().GetService<ApplicationDbContext>().Database.Migrate();
 

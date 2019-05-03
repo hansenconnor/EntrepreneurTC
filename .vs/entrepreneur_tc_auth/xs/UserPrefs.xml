@@ -1,19 +1,20 @@
 ﻿<Properties StartupConfiguration="{859E218F-EC3D-43E5-957B-EE04BD5E2772}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Areas/Identity/Data/entrepreneur_tc_authIdentityDbContext.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Data/Migrations/20190428033955_creatingPostsContext.cs">
     <Files>
-      <File FileName="appsettings.json" Line="2" Column="25" />
-      <File FileName="Startup.cs" Line="51" Column="17" />
+      <File FileName="appsettings.json" Line="8" Column="27" />
+      <File FileName="Startup.cs" Line="4" Column="30" />
       <File FileName="Properties/launchSettings.json" Line="12" Column="35" />
       <File FileName="Program.cs" Line="18" Column="10" />
-      <File FileName="Areas/Identity/IdentityHostingStartup.cs" Line="19" Column="42" />
-      <File FileName="Data/ApplicationDbContext.cs" Line="14" Column="10" />
-      <File FileName="Pages/Posts/Create.cshtml.cs" Line="24" Column="27" />
-      <File FileName="Models/Post.cs" Line="21" Column="1" />
+      <File FileName="Areas/Identity/IdentityHostingStartup.cs" Line="23" Column="49" />
+      <File FileName="Data/ApplicationDbContext.cs" Line="22" Column="10" />
+      <File FileName="Pages/Posts/Create.cshtml.cs" Line="19" Column="32" />
+      <File FileName="Models/Post.cs" Line="10" Column="60" />
       <File FileName="Data/Migrations/20190502224526_configuringForAzure.Designer.cs" Line="11" Column="2" />
       <File FileName="Data/Migrations/20190502224526_configuringForAzure.cs" Line="32" Column="47" />
-      <File FileName="Data/Migrations/ApplicationDbContextModelSnapshot.cs" Line="25" Column="47" />
-      <File FileName="Data/Migrations/20190428033955_creatingPostsContext.Designer.cs" Line="183" Column="18" />
-      <File FileName="Areas/Identity/Data/entrepreneur_tc_authIdentityDbContext.cs" Line="24" Column="10" />
+      <File FileName="Data/Migrations/ApplicationDbContextModelSnapshot.cs" Line="27" Column="1" />
+      <File FileName="Data/Migrations/20190428033955_creatingPostsContext.Designer.cs" Line="36" Column="1" />
+      <File FileName="Areas/Identity/Data/entrepreneur_tc_authIdentityDbContext.cs" Line="15" Column="10" />
+      <File FileName="Data/Migrations/20190428033955_creatingPostsContext.cs" Line="16" Column="123" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -22,13 +23,13 @@
             <Node name="entrepreneur_tc_auth" expanded="True">
               <Node name="Areas" expanded="True">
                 <Node name="Identity" expanded="True">
-                  <Node name="Data" expanded="True">
-                    <Node name="entrepreneur_tc_authIdentityDbContext.cs" selected="True" />
-                  </Node>
+                  <Node name="Data" expanded="True" />
                 </Node>
               </Node>
               <Node name="Data" expanded="True">
-                <Node name="Migrations" expanded="True" />
+                <Node name="Migrations" expanded="True">
+                  <Node name="20190428033955_creatingPostsContext.cs" selected="True" />
+                </Node>
               </Node>
               <Node name="Models" expanded="True" />
               <Node name="Pages" expanded="True">
