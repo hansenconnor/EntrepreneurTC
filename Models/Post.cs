@@ -6,7 +6,6 @@ namespace entrepreneur_tc_auth.Models
 {
     public class Post
     {
-        [Key]
         public int Id { get; set; }
 
         public string Title { get; set; }
